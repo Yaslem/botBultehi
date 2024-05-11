@@ -1,0 +1,6 @@
+-- AlterTable
+ALTER TABLE `result` ADD COLUMN `hasCnters` BOOLEAN NOT NULL DEFAULT false,
+    ADD COLUMN `hasCounties` BOOLEAN NOT NULL DEFAULT false,
+    ADD COLUMN `hasSchools` BOOLEAN NOT NULL DEFAULT false,
+    ADD COLUMN `hasStates` BOOLEAN NOT NULL DEFAULT false,
+    ADD COLUMN `hasTypes` BOOLEAN NOT NULL DEFAULT false;
